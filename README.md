@@ -40,8 +40,8 @@ src/main/java/modulith_demo/
 
 ## 🛠️ Prerequisites
 
-- Java 21 or later
-- Maven 3.6.3 or later
+- Java 21
+- Spring Boot 3.5.6
 - IntelliJ IDEA Community Edition
 
 ## 🚀 Getting Started
