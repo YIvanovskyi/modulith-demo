@@ -38,29 +38,15 @@ src/main/java/modulith_demo/
         └── GlobalExceptionHandler.java # Global exception handler
 ```
 
-## 🛠️ Prerequisites
+## 📚 Technologies Used
 
-- Java 21
-- Spring Boot 3.5.6
-- IntelliJ IDEA Community Edition
-
-## 🚀 Getting Started
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/modulith-demo.git
-   cd modulith-demo
-   ```
-
-2. **Build the project**
-   ```bash
-   ./mvnw clean install
-   ```
-
-3. **Run the application**
-   ```bash
-   ./mvnw spring-boot:run
-   ```
+- **JAVA** - 21
+- **IntelliJ IDEA** - Community Edition
+- **Spring Boot 3.5.6** - Application framework
+- **Spring Modulith** - For modular monolith architecture
+- **Lombok** - For reducing boilerplate code
+- **JUnit 5** - For unit and integration testing
+- **Maven** - Dependency management
 
 ## 🌐 API Endpoints
 
@@ -85,34 +71,3 @@ src/main/java/modulith_demo/
   curl "http://localhost:8080/api/orders/123/status"
   ```
 
-## 🧪 Running Tests
-
-Run all tests:
-```bash
-./mvnw test
-```
-
-Run a specific test class:
-```bash
-./mvnw test -Dtest=OrderServiceTest
-```
-
-## 🏗️ Module Structure
-
-### Order Module
-Handles order processing and management.
-- **API**: Exposes REST endpoints for order operations
-- **Events**: Publishes domain events for order state changes
-
-### Notification Module
-Handles sending notifications.
-- Listens to order events
-- Sends appropriate notifications
-
-## 📚 Technologies Used
-
-- **Spring Boot 3.5.6** - Application framework
-- **Spring Modulith** - For modular monolith architecture
-- **Lombok** - For reducing boilerplate code
-- **JUnit 5** - For unit and integration testing
-- **Maven** - Dependency management
